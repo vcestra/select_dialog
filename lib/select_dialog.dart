@@ -243,7 +243,7 @@ class _SelectDialogState<T> extends State<SelectDialog<T>> {
           if (isMultipleItems)
             okButtonBuilder(context, () {
               multipleItemsBloc.onSelectButtonPressed();
-              Navigator.pop(context);
+              //Navigator.pop(context);
             }),
         ],
       ),
